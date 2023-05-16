@@ -1,5 +1,6 @@
 package com.example.wordapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -47,7 +48,10 @@ class MainFragment : Fragment() {
             var action=MainFragmentDirections.actionMainFragmentToDictionaryFragment()
             view.findNavController().navigate(action)
         }
-
+        binding.btnai.setOnClickListener{
+         val intent=Intent(it.context,AiActivity::class.java)
+        startActivity(intent)
+        }
 
 
     }
