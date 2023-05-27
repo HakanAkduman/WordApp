@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
 
     >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+   app:cardBackgroundColor="@color/grey"
+    app:cardCornerRadius="15dp"
 
+    >
     <TextView
         android:id="@+id/tvWord"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+android:layout_marginTop="5dp"
         android:text="hello"
         android:paddingLeft="35dp"
         ></TextView>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:text="==>"></TextView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+android:layout_marginTop="25dp"
         android:id="@+id/tvMeaning"
         android:text="an utterance of ‘hello’; a greeting."
-        android:padding="15dp">
+        android:padding="26dp">
 
     </TextView>
+
+</androidx.cardview.widget.CardView>
+
 
 </LinearLayout>
