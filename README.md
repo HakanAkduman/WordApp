@@ -18,8 +18,9 @@ LiveData: LiveData was used to provide data flow between ViewModel and View.
 These technologies and components help Word App provide a powerful, efficient and user-friendly experience.
 
 
-![WhatsApp_Image_2023-06-09_at_5 54 25_PM_1](https://github.com/HakanAkduman/WordApp/assets/118764511/19cc3e2a-e97e-40eb-8141-7f0063dceb9d)
-![Adsz](https://github.com/HakanAkduman/WordApp/assets/118764511/7dd99245-99e8-448f-ba0b-ad6f120bb65e)
+![245777978-19cc3e2a-e97e-40eb-8141-7f0063dceb9d](https://github.com/HakanAkduman/WordApp/assets/118764511/cc06a6ca-87bb-46e8-aefb-852085fecaca)
+![245778072-7dd99245-99e8-448f-ba0b-ad6f120bb65e](https://github.com/HakanAkduman/WordApp/assets/118764511/30d531f2-a44a-4dce-ac79-7911746929f5)
+
 
 
 
